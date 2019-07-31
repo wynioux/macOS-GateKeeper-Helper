@@ -16,19 +16,19 @@ This is a simple useful tool for both **Pro** & **Newbie** users which allow you
 4. Self-Sign An App,
     > If you don’t want to disable SIP and your app is quite unexpectedly especially under the recent macOS then try to Self-Sign your app using this option.
 
-## What is GateKeeper?
+### What is GateKeeper?
 ```
 Gatekeeper is a security feature of the macOS operating system by Apple. It enforces code signing and verifies downloaded applications before allowing them to run.
 ```
 
-## Why should I use?
+### Why should I use?
 ```
 - To fix "Example-App is damaged and can't opened. You should move it to the Trash." messages.
 
 - To fix "Exaple-App.pkg can't be opened because it is from an unidentified developer." messages.
 ```
 
-## How to use?
+### How to use?
 ```
 Just download "GateKeeper_Helper.command" file and run it.
 Note: To open helper for first time, right click on it then click open.
