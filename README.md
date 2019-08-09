@@ -3,10 +3,12 @@
 <img alt="Screenshot" src="https://github.com/wynioux/macOS-GateKeeper-Helper/raw/master/screenshot.png">
 <br>
 <br>
-<a href="https://github.com/wynioux/macOS-GateKeeper-Helper/releases/download/v1.0.0/GateKeeper_Helper.command" target="_blank"><img alt="undefined" src="https://badgen.net/badge/Download/macOS/?color=grey&icon=apple&label"></a>
 <a href="https://github.com/wynioux/macOS-GateKeeper-Helper/releases/latest"><img alt="undefined" src="https://img.shields.io/github/release/wynioux/macOS-GateKeeper-Helper"></a>
 <a><img alt="undefined" src="https://img.shields.io/github/downloads/wynioux/macOS-GateKeeper-Helper/total"></a>
 <a href="https://github.com/wynioux/macOS-GateKeeper-Helper/blob/master/LICENSE"><img alt="undefined" src="https://img.shields.io/github/license/wynioux/macOS-GateKeeper-Helper"></a>
+<br>
+<br>
+<a href="https://github.com/wynioux/macOS-GateKeeper-Helper/releases/download/v1.0.0/GateKeeper_Helper.command" target="_blank"><img alt="undefined" src="https://badgen.net/badge/Download/macOS/?color=grey&icon=apple&label"></a>
 <br>
 </p>
 
