@@ -24,57 +24,56 @@ echo -e "under the recent macOS then try to Self-Sign your app using this option
 echo ""
 PS3='Please enter your choice: '
 options=("Disable Your GateKeeper" "Enable Your GateKeeper" "Allow Single App To ByPass The GateKeeper" "Self-Sign An App" "Quit")
-select opt in "${options[@]}"
-do
-	case $opt in
-		"Disable Your GateKeeper")
-			echo ""
-			echo -e "${GRN}You Choose To Disable Your GateKeeper${NC}"
-			echo ""
-			echo -e "${RED}Plaese Inseret Your Password To Procceed${NC}"
-			echo ""
-			sudo spctl --master-disable
-			break
-			;;
-		"Enable Your GateKeeper")
-			echo ""
-			echo -e "${GRN}You Choose To Enable Your GateKeeper${NC}"
-			echo ""
-			echo -e "${RED}Plaese Inseret Your Password To Procceed${NC}"
-			echo ""
-			sudo spctl --master-enable
-			break
-			;;
-		"Allow Single App To ByPass The GateKeeper")
-			echo ""
-			echo -e "${GRN}You Choose To Allow Single App To ByPass The GateKeeper${NC}"
-			echo ""
-			read -e -p "Drag & Drop The App Here Then Hit Return: " FILEPATH
-			echo ""
-			echo -e "${RED}Plaese Inseret Your Password To Procceed${NC}"
-			echo ""
-			sudo xattr -rd com.apple.quarantine "$FILEPATH"
-			break
-			;;
-		"Self-Sign An App")
-			echo ""
-			echo -e "${GRN}You Choose To Self-Sign An App${NC}"
-			echo ""
-			read -e -p "Drag & Drop The App Here Then Hit Return: " FILEPATH
-			echo ""
-			echo -e "${RED}Plaese Inseret Your Password To Procceed${NC}"
-			echo ""
-			sudo codesign -f -s - --deep "$FILEPATH"
-			echo ""
-			echo -e "${RED}If you see - replacing existing signature - that means you are DONE!${NC}"
-			echo ""
-			echo -e "${RED}Otherwise there is something wrong with the app or its path${NC}"
-			echo ""
-			break
-			;;
-		"Quit")
-			break
-			;;
-		*) echo "invalid option $REPLY";;
-	esac
+select opt in "${options[@]}"; do
+    case $opt in
+        "Disable Your GateKeeper")
+            echo ""
+            echo -e "${GRN}You Choose To Disable Your GateKeeper${NC}"
+            echo ""
+            echo -e "${RED}Plaese Inseret Your Password To Procceed${NC}"
+            echo ""
+            sudo spctl --master-disable
+            break
+            ;;
+        "Enable Your GateKeeper")
+            echo ""
+            echo -e "${GRN}You Choose To Enable Your GateKeeper${NC}"
+            echo ""
+            echo -e "${RED}Plaese Inseret Your Password To Procceed${NC}"
+            echo ""
+            sudo spctl --master-enable
+            break
+            ;;
+        "Allow Single App To ByPass The GateKeeper")
+            echo ""
+            echo -e "${GRN}You Choose To Allow Single App To ByPass The GateKeeper${NC}"
+            echo ""
+            read -e -p "Drag & Drop The App Here Then Hit Return: " FILEPATH
+            echo ""
+            echo -e "${RED}Plaese Inseret Your Password To Procceed${NC}"
+            echo ""
+            sudo xattr -rd com.apple.quarantine "$FILEPATH"
+            break
+            ;;
+        "Self-Sign An App")
+            echo ""
+            echo -e "${GRN}You Choose To Self-Sign An App${NC}"
+            echo ""
+            read -e -p "Drag & Drop The App Here Then Hit Return: " FILEPATH
+            echo ""
+            echo -e "${RED}Plaese Inseret Your Password To Procceed${NC}"
+            echo ""
+            sudo codesign -f -s - --deep "$FILEPATH"
+            echo ""
+            echo -e "${RED}If you see - replacing existing signature - that means you are DONE!${NC}"
+            echo ""
+            echo -e "${RED}Otherwise there is something wrong with the app or its path${NC}"
+            echo ""
+            break
+            ;;
+        "Quit")
+            break
+            ;;
+        *) echo "invalid option $REPLY" ;;
+    esac
 done
