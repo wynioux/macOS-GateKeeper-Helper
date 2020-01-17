@@ -48,7 +48,7 @@ select opt in "${options[@]}"; do
             echo ""
             echo -e "${GRN}You Choose To Allow Single App To ByPass The GateKeeper${NC}"
             echo ""
-            read -e -p "Drag & Drop The App Here Then Hit Return: " FILEPATH
+            read -epr "Drag & Drop The App Here Then Hit Return: " FILEPATH
             echo ""
             echo -e "${RED}Plaese Inseret Your Password To Procceed${NC}"
             echo ""
@@ -59,7 +59,7 @@ select opt in "${options[@]}"; do
             echo ""
             echo -e "${GRN}You Choose To Self-Sign An App${NC}"
             echo ""
-            read -e -p "Drag & Drop The App Here Then Hit Return: " FILEPATH
+            read -epr "Drag & Drop The App Here Then Hit Return: " FILEPATH
             echo ""
             echo -e "${RED}Plaese Inseret Your Password To Procceed${NC}"
             echo ""
