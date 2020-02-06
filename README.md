@@ -1,30 +1,29 @@
-<p align="center">
-<br>
+<p align="center"><br>
+
 <img alt="Screenshot" src="https://github.com/wynioux/macOS-GateKeeper-Helper/raw/master/screenshot.png">
+
 <br>
-<br>
-<a href="https://github.com/wynioux/macOS-GateKeeper-Helper/releases/latest"><img alt="undefined" src="https://img.shields.io/github/release/wynioux/macOS-GateKeeper-Helper"></a>
-<a><img alt="undefined" src="https://img.shields.io/github/downloads/wynioux/macOS-GateKeeper-Helper/total"></a>
-<a href="https://github.com/wynioux/macOS-GateKeeper-Helper/blob/master/LICENSE.md"><img alt="undefined" src="https://img.shields.io/github/license/wynioux/macOS-GateKeeper-Helper"></a>
-<br>
-<a href="https://github.com/wynioux/macOS-GateKeeper-Helper/releases/download/v1.0.0/GateKeeper_Helper.command" target="_blank"><img alt="undefined" src="https://badgen.net/badge/Download/macOS/?color=grey&icon=apple&label"></a>
-<br>
-</p>
+
+[![Lastest Release](https://img.shields.io/github/release/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/releases/latest) [![Stars](https://img.shields.io/github/stars/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/stargazers)  [![Forks](https://img.shields.io/github/forks/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/network/members)  [![Downloads](https://img.shields.io/github/downloads/wynioux/macOS-GateKeeper-Helper/total)](https://github.com/wynioux/macOS-GateKeeper-Helper/releases/download/v1.0.0/GateKeeper_Helper.command)   [![Size](https://img.shields.io/github/size/wynioux/macOS-GateKeeper-Helper/GateKeeper_Helper.command)]()   [![License](https://img.shields.io/github/license/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/blob/master/LICENSE.md)
+
+<br></p>
 
 
-This is a simple useful tool for both **Pro** & **Newbie** users which allow you to do the following:
+This is a simple useful tool for users which allow you to do the following:
+1. Show GateKeeper Status.
+    > Shows GateKeeper status.
 
-1. Disable Your GateKeeper.
-    > You can completely disable your gatekeeper -> Good For Professional Users.
+2. Enable GateKeeper.
+    > Enables GateKeeper.
 
-2. Enable Your GateKeeper.
-    > You can completely enable your gatekeeper -> Good For Newbie Users.
+3. Disable GateKeeper.
+    > Completely disables GateKeeper.
 
-3. Allow Single App To ByPass The GateKeeper.
-    > If you don’t want to completely disable your gatekeeper then allow an individual app to pass it -> Recommended For All Users.
+4. Remove app from GateKeeper quarantine.
+    > Allows an individual quarantined app to run.
 
-4. Self-Sign An App.
-    > If you don’t want to disable SIP and your app is quite unexpectedly especially under the recent macOS then try to Self-Sign your app using this option.
+5. Self-sign the app.
+    > If GateKeeper is on and your app quits unexpectedly, try self-signing.
 
 ### What is GateKeeper?
 ```
