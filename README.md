@@ -1,6 +1,5 @@
 <p align="center">
     <img alt="Screenshot" src="https://github.com/wynioux/macOS-GateKeeper-Helper/raw/master/screenshot.png">
-    <h>GateKeeper Helper</h>
 </p>
 
 <p align="center">
