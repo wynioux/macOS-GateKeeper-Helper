@@ -32,19 +32,10 @@
 
 This is a simple useful tool for users which allow you to do the following:
 1. Show GateKeeper Status.
-    > Shows GateKeeper status.
-
 2. Enable GateKeeper.
-    > Enables GateKeeper.
-
 3. Disable GateKeeper.
-    > Completely disables GateKeeper.
-
 4. Remove app from GateKeeper quarantine.
-    > Allows an individual quarantined app to run.
-
 5. Self-sign the app.
-    > If GateKeeper is on and your app quits unexpectedly, try self-signing.
 
 ### What is GateKeeper?
 
