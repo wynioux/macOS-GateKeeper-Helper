@@ -26,7 +26,7 @@
 ## 📝 Table of Contents
 - [About](#about)
 - [Usage](#usage)
-- [Acknowledgments](#acknowledgement)
+- [Tips](#tips)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -63,7 +63,7 @@ It enforces code signing and verifies downloaded applications before allowing th
 Just download "GateKeeper_Helper.command" file and run it.
 
 
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+## 🎉 Tips <a name = "tips"></a>
 
 Note: To open helper for first time, right click on it then click open.
 
