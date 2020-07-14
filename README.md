@@ -47,7 +47,7 @@ This is a simple useful tool for users which allow you to do the following:
 
 - To fix "Example-App is damaged and can't opened. You should move it to the Trash." messages.
 
-- To fix "Exaple-App.pkg can't be opened because it is from an unidentified developer." messages.
+- To fix "Example-App.pkg can't be opened because it is from an unidentified developer." messages.
 
 ## 🎈 Usage <a name="usage"></a>
 
