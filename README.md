@@ -6,14 +6,13 @@
 
 <div align="center">
 
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
-  [![Release](https://img.shields.io/github/release/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/releases/latest)
-  [![Stars](https://img.shields.io/github/stars/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/stargazers)
-  [![Forks](https://img.shields.io/github/forks/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/network/members)
-  [![Downloads](https://img.shields.io/github/downloads/wynioux/macOS-GateKeeper-Helper/total)](https://github.com/wynioux/macOS-GateKeeper-Helper/releases/download/v1.1.0/GateKeeper_Helper.command)
-  [![Size](https://img.shields.io/github/size/wynioux/macOS-GateKeeper-Helper/GateKeeper_Helper.command)]()
-  [![License](https://img.shields.io/github/license/wynioux/macOS-GateKeeper-Helper)](/LICENSE)
-
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![Release](https://img.shields.io/github/release/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/releases/latest)
+[![Stars](https://img.shields.io/github/stars/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/stargazers)
+[![Forks](https://img.shields.io/github/forks/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/network/members)
+[![Downloads](https://img.shields.io/github/downloads/wynioux/macOS-GateKeeper-Helper/total)](https://github.com/wynioux/macOS-GateKeeper-Helper/releases/download/v1.2.0/GateKeeper_Helper.command)
+[![Size](https://img.shields.io/github/size/wynioux/macOS-GateKeeper-Helper/GateKeeper_Helper.command)]()
+[![License](https://img.shields.io/github/license/wynioux/macOS-GateKeeper-Helper)](/LICENSE)
 
 </div>
 
@@ -24,6 +23,7 @@
 </p>
 
 ## 📝 Table of Contents
+
 - [About](#about)
 - [Usage](#usage)
 - [Tips](#tips)
@@ -31,6 +31,7 @@
 ## 🧐 About <a name = "about"></a>
 
 This is a simple useful tool for users which allow you to do the following:
+
 1. Show GateKeeper Status.
 2. Enable GateKeeper.
 3. Disable GateKeeper.
@@ -40,8 +41,7 @@ This is a simple useful tool for users which allow you to do the following:
 ### What is GateKeeper?
 
 - Gatekeeper is a security feature of the macOS operating system by Apple.
-It enforces code signing and verifies downloaded applications before allowing them to run.
-
+  It enforces code signing and verifies downloaded applications before allowing them to run.
 
 ### Why should I use?
 
@@ -53,7 +53,6 @@ It enforces code signing and verifies downloaded applications before allowing th
 
 Just download "GateKeeper_Helper.command" file and run it.
 
-
 ## 🎉 Tips <a name = "tips"></a>
 
 Note: To open helper for first time, right click on it then click open.
@@ -63,4 +62,5 @@ Or type via Terminal:
 ```
 chmod +x GateKeeper_Helper.command
 ```
+
 then run.
