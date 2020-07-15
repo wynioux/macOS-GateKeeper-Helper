@@ -2,7 +2,7 @@
 
 #Attribute
 GITHUB_URL="https://github.com/wynioux/macOS-GateKeeper-Helper"
-RELEASE_VERSION="v1.2.0"
+RELEASE_VERSION="v1.2.1"
 ROOT_PASSWORD=0
 
 # Color Set
