@@ -10,7 +10,7 @@
 [![Release](https://img.shields.io/github/release/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/releases/latest)
 [![Stars](https://img.shields.io/github/stars/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/stargazers)
 [![Forks](https://img.shields.io/github/forks/wynioux/macOS-GateKeeper-Helper)](https://github.com/wynioux/macOS-GateKeeper-Helper/network/members)
-[![Downloads](https://img.shields.io/github/downloads/wynioux/macOS-GateKeeper-Helper/total)](https://github.com/wynioux/macOS-GateKeeper-Helper/releases/download/v1.2.0/GateKeeper_Helper.command)
+[![Downloads](https://img.shields.io/github/downloads/wynioux/macOS-GateKeeper-Helper/total)](https://github.com/wynioux/macOS-GateKeeper-Helper/releases/download/v1.2.1/GateKeeper_Helper.command)
 [![Size](https://img.shields.io/github/size/wynioux/macOS-GateKeeper-Helper/GateKeeper_Helper.command)]()
 [![License](https://img.shields.io/github/license/wynioux/macOS-GateKeeper-Helper)](/LICENSE)
 
