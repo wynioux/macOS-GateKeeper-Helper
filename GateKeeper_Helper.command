@@ -149,7 +149,7 @@ selfSignApp()
 # Shows quit message.
 quitScript()
 {
-    echo "?Quitting..."
+    echo "Quitting..."
     continueMessage
 }
 
@@ -198,10 +198,8 @@ startScript()
 
             6)
                 clear
-                if [quitScript]
-                then
-                    break
-                fi
+                quitScript
+                break
             ;;
 
             *)
